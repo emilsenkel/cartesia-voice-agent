@@ -1,0 +1,13 @@
+[project]
+name = "cartesia-voice-agent"
+version = "0.1.0"
+description = "Multi-tenant conversational voice agent on the Cartesia Line SDK"
+requires-python = ">=3.10"
+dependencies = [
+    "cartesia-line==0.2.15",
+    "loguru>=0.7.0",
+    "httpx>=0.27.0",
+]
+
+[tool.setuptools]
+py-modules = ["main"]
